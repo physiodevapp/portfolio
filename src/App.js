@@ -5,7 +5,6 @@ import Skills from './components/skills/Skills';
 import Education from './components/education/Education';
 import Contact from './components/contact/Contact';
 
-
 function App() {
   return (
     <>

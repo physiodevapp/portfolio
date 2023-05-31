@@ -1,10 +1,13 @@
 import React from 'react'
+import { StyledHeader } from './Header.styled'
 
 function Header({ title, children }) {
   return (
     <>
-      <div>{title}</div>
-      {children}
+      <StyledHeader className=''>
+        {title}
+        {children}
+      </StyledHeader>
     </>
   )
 }

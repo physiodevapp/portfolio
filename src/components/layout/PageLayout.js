@@ -11,8 +11,6 @@ function PageLayout({ children }) {
     <>
       <ThemeProvider theme={darkTheme}>
         <GlobalStyles />
-        {/* <div className='page-layout'>
-        </div> */}
           <StyledPageLayout className='container d-flex flex-col'>
             <Header title={'Portfolio'} >
               <Navbar />

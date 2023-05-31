@@ -5,7 +5,7 @@ function Header({ title, children }) {
   return (
     <>
       <StyledHeader className=''>
-        {title}
+        <h3>{title}</h3>
         {children}
       </StyledHeader>
     </>
